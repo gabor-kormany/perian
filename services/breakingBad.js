@@ -24,7 +24,6 @@ async function fetchData() {
                     return episode;
                 });
                 resolve(cache);
-                return;
             })
         }
 
